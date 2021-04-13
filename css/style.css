@@ -58,12 +58,12 @@ html {
 
 body {
   position: relative;
-   background: #3D7EAA;
-   /* fallback for old browsers */
-   background: -webkit-linear-gradient(to bottom, #FFE47A, #3D7EAA);
-   /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to bottom, #FFE47A, #3D7EAA);
-   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #3D7EAA;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFE47A, #3D7EAA);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFE47A, #3D7EAA);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -1432,6 +1432,7 @@ header[style] {
   background: #ff4500;
   color: #fff;
 }
+
 .header .nav-item .nav-link {
   color: #fff;
   font-size: 0.875rem;
@@ -1876,7 +1877,7 @@ header[style] {
 .scroll-down-btn,
 .hero-email-link {
   bottom: 30px;
-  font-size:20px;
+  font-size: 20px;
   position: absolute;
   color: rgb(46, 134, 222);
   letter-spacing: 3px;
@@ -1924,7 +1925,7 @@ header[style] {
   z-index: 1;
 }
 
- #heroparticles {
+#heroparticles {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -2091,7 +2092,7 @@ header[style] {
   z-index: 1;
   position: relative;
   display: inline-block;
-  right: 20px;
+  right: 40px;
 }
 
 .about-img img {
@@ -2918,6 +2919,7 @@ header[style] {
 #skills {
   background-color: #e0e0e0;
 }
+
 .skills-inner>h6 {
   font-weight: 500;
   font-size: 14px;
